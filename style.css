@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 .header{
     width: 100%;
@@ -34,17 +34,18 @@ body{
     size-adjust: 100%;
 }
 .scroll{
-    height: 1200px;
-
+    height: 900px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 .menu{
-    height: 180px;
+    height: 80px;
     text-align: right;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    text-align: center;
 }
 .menu a{
     text-decoration: none;
