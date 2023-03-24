@@ -21,7 +21,6 @@ body{
      font-size: 70px;
      padding: 20px;
      color: #f8f4f8;
-     
 }
 .contact{
     display: inline-block;
@@ -35,6 +34,26 @@ body{
 }
 .scroll{
     height: 1200px;
+    position: relative;
+    z-index: 10;
+}
+.menu{
+    height: 80px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: blue;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    line-height: 80px;
+    margin-right: 30px;
+}
+.menu a:hover{
+    text-decoration: underline;
 }
 .absolute{
     position: absolute;
